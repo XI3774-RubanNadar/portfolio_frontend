@@ -30,8 +30,8 @@ const Project = () => {
       spaceBetween={50}
       slidesPerView={1}
       autoplay
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
+      // onSlideChange={() => console.log('slide change')}
+      // onSwiper={(swiper) => console.log(swiper)}
       className='mt-20 '
     >
       {new Array(5).fill(null).map((i,k)=><SwiperSlide key={k+"resume"}><div className='flex ' >

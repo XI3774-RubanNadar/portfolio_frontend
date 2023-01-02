@@ -18,7 +18,7 @@ module.exports = {
         },
       },
       animation: {
-        'wobble': 'bigSmall 3s ease-in infinite',
+        'wobble': 'bigSmall 2s ease-in infinite',
         'fade': 'fadeIn 6s ease-in infinite',
       },
       fontFamily: {
